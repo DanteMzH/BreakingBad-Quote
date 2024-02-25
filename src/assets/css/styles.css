@@ -1,0 +1,41 @@
+#Titulo{
+    font-family: 'Heart Breaking Bad', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    /* background: green; */
+    /* color: white; */
+                                                
+}
+
+img{
+    filter: drop-shadow(
+        0 0 10px rgba(0,0,0,0.8)
+    );
+    max-width: 600px;
+    height: 500px;
+    /* position: sticky; */
+    overflow: hidden;
+}
+
+#este{
+    height: 25px;
+    width: 25px;
+}
+.fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 2000ms ease-in-out;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 2000ms ease-in-out;
+  }
+  
